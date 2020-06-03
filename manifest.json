@@ -1,0 +1,11 @@
+{   
+    "manifest_version": 2,
+    "name": "refresh page",
+    "version": "0.1",
+    "description": "refresh page",
+    "background": {
+        "persistent": true,
+        "scripts": ["background.js"]
+      },
+      "permissions": ["contextMenus", "tabs", "activeTab"]
+}
